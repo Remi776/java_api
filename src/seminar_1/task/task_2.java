@@ -14,6 +14,9 @@ public class task_2 {
                 }
                 count = 0;
             }
+            if (count > max_count) {
+                max_count = count;
+            }
         }
         return max_count;
     }
