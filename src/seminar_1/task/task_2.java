@@ -9,9 +9,6 @@ public class task_2 {
             if (item == 1) {
                 count++;
             } else {
-                if (count > max_count) {
-                    max_count = count;
-                }
                 count = 0;
             }
             if (count > max_count) {
