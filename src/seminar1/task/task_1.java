@@ -1,4 +1,4 @@
-package seminar_1.task;
+package seminar1.task;
 
 public class task_1 {
     public static void run() {

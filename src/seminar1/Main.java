@@ -1,7 +1,7 @@
-package seminar_1;
+package seminar1;
 //import seminar_1.task.*;
 
-import seminar_1.hm.*;
+import seminar1.hm.*;
 
 import java.util.Scanner;
 

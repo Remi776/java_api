@@ -1,4 +1,4 @@
-package seminar_1.task;
+package seminar1.task;
 
 public class task_2 {
     //110111
