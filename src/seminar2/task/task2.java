@@ -11,7 +11,7 @@ public class task2 {
         char firstChar = text.charAt(0);
         for (int i = 0; i < len; i++){
             if (firstChar != i){
-                System.out.println(firstChar + );
+                System.out.println(firstChar);
             }
         }
     }
