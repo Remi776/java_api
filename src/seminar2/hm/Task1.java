@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 
 public class Task1 {
     static Scanner scanner = new Scanner(System.in);
-    private static final Logger LOG = Log.log(Task1.class.getName());
+    private static final Logger LOG = Log.log(Task1.class.getName()); // правильно ли так повторно обращаться к логгеру? это и есть экземпляр,верно?
 
     public static int getArrayLength() {
         System.out.print("length of array = ");
