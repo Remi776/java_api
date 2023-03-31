@@ -1,4 +1,4 @@
-package seminar1.hm;
+package seminar1.hw;
 
 import java.util.Scanner;
 
