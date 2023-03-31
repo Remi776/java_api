@@ -1,4 +1,4 @@
-package seminar2.hm;
+package seminar2.hw;
 
 
 import org.json.simple.JSONArray;
