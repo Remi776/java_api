@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 
 public class Task1 {
     static Scanner scanner = new Scanner(System.in);
-    // Log newLog = new Log();
+    private static final Logger LOG = Log.log(Task1.class.getName());
 
 
     public static int getArrayLength() {
