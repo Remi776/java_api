@@ -12,8 +12,6 @@ public class Task1 {
     static Scanner scanner = new Scanner(System.in);
     private static final Logger LOG = Log.log(Task1.class.getName());
 
-    //    Log log = new Log();
-    //    private static final String TAG = "Task1";
     public static int getArrayLength() {
         System.out.print("length of array = ");
         int len;

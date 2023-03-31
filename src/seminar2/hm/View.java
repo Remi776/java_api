@@ -8,5 +8,7 @@ public class View {
         int[] data = Task1.getRandomArray(len);
         Task1.BubbleSort(data);
         System.out.println(Arrays.toString(data));
+        System.out.println("-----------------------------------------------------");
+        Task2.getStudentsJournal();
     }
 }
