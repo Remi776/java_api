@@ -1,28 +1,76 @@
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [38, 3, 36, 16, 15, 4, 9, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 38, 36, 16, 15, 4, 9, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 38, 36, 16, 15, 4, 9, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 4, 38, 36, 16, 15, 9, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 4, 38, 36, 16, 15, 9, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 4, 9, 38, 36, 16, 15, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 4, 9, 38, 36, 16, 15, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 4, 9, 15, 38, 36, 16, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 4, 9, 15, 38, 36, 16, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 4, 9, 15, 16, 38, 36, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 4, 9, 15, 16, 38, 36, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 4, 9, 15, 16, 36, 38, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 4, 9, 15, 16, 36, 38, 46]
-Mar 31, 2023 3:17:25 PM seminar2.hw.Task1 BubbleSort
-INFO: [3, 4, 9, 15, 16, 36, 38, 46]
+Mar 31, 2023 8:35:08 PM seminar2.hw.Task1 BubbleSort
+INFO: [8, 6, 28, 34, 11]
+Mar 31, 2023 8:35:08 PM seminar2.hw.Task1 BubbleSort
+INFO: [6, 8, 28, 34, 11]
+Mar 31, 2023 8:35:08 PM seminar2.hw.Task1 BubbleSort
+INFO: [6, 8, 28, 34, 11]
+Mar 31, 2023 8:35:08 PM seminar2.hw.Task1 BubbleSort
+INFO: [6, 8, 28, 34, 11]
+Mar 31, 2023 8:35:08 PM seminar2.hw.Task1 BubbleSort
+INFO: [6, 8, 28, 34, 11]
+Mar 31, 2023 8:35:08 PM seminar2.hw.Task1 BubbleSort
+INFO: [6, 8, 11, 34, 28]
+Mar 31, 2023 8:35:08 PM seminar2.hw.Task1 BubbleSort
+INFO: [6, 8, 11, 34, 28]
+Mar 31, 2023 8:35:08 PM seminar2.hw.Task1 BubbleSort
+INFO: [6, 8, 11, 28, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [11, 24, 16, 6, 47, 39, 6, 41, 41, 3, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 24, 16, 11, 47, 39, 6, 41, 41, 6, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 24, 16, 11, 47, 39, 6, 41, 41, 6, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 24, 16, 47, 39, 11, 41, 41, 6, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 24, 16, 47, 39, 11, 41, 41, 6, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 24, 47, 39, 16, 41, 41, 11, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 24, 47, 39, 16, 41, 41, 11, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 47, 39, 24, 41, 41, 16, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 47, 39, 24, 41, 41, 16, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 47, 39, 41, 41, 24, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 47, 39, 41, 41, 24, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 24, 47, 41, 41, 39, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 24, 47, 41, 41, 39, 30, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 24, 30, 47, 41, 41, 39, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 24, 30, 47, 41, 41, 39, 34]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 24, 30, 34, 47, 41, 41, 39]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 24, 30, 34, 47, 41, 41, 39]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 24, 30, 34, 39, 47, 41, 41]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 24, 30, 34, 39, 47, 41, 41]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 24, 30, 34, 39, 41, 47, 41]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 24, 30, 34, 39, 41, 47, 41]
+Mar 31, 2023 8:36:09 PM seminar2.hw.Task1 BubbleSort
+INFO: [3, 6, 6, 11, 16, 24, 30, 34, 39, 41, 41, 47]
+Mar 31, 2023 8:37:37 PM seminar2.hw.Task1 BubbleSort
+INFO: [36, 37, 30, 36, 42]
+Mar 31, 2023 8:37:37 PM seminar2.hw.Task1 BubbleSort
+INFO: [30, 37, 36, 36, 42]
+Mar 31, 2023 8:37:37 PM seminar2.hw.Task1 BubbleSort
+INFO: [30, 37, 36, 36, 42]
+Mar 31, 2023 8:37:37 PM seminar2.hw.Task1 BubbleSort
+INFO: [30, 36, 37, 36, 42]
+Mar 31, 2023 8:37:37 PM seminar2.hw.Task1 BubbleSort
+INFO: [30, 36, 37, 36, 42]
+Mar 31, 2023 8:37:37 PM seminar2.hw.Task1 BubbleSort
+INFO: [30, 36, 36, 37, 42]
+Mar 31, 2023 8:37:37 PM seminar2.hw.Task1 BubbleSort
+INFO: [30, 36, 36, 37, 42]
+Mar 31, 2023 8:37:37 PM seminar2.hw.Task1 BubbleSort
+INFO: [30, 36, 36, 37, 42]
