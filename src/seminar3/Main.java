@@ -11,8 +11,8 @@ public class Main {
     public static void main(String[] args) {
         // Task1.getRandomList();
 
-//        Task4.fillCatalog(poetry);
-//        Task4.fillCatalog(prose);
+        // Task4.fillCatalog(poetry);
+        // Task4.fillCatalog(prose);
 
         Task3.delIntFromList();
     }
