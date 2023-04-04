@@ -1,4 +1,4 @@
-package seminar1.hm;
+package seminar1.hw;
 
 public class ex_1 {
     public static void triangular_number(int num) {

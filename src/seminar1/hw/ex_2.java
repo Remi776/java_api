@@ -1,4 +1,4 @@
-package seminar1.hm;
+package seminar1.hw;
 
 public class ex_2 {
     public static void prime_num() {
