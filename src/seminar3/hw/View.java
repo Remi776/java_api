@@ -14,8 +14,8 @@ public class View {
 //        System.out.println(Arrays.toString(data));
 //        System.out.println("-----------------------------------------------------------------------");
 //        Task2.delEvenNumbersFromList();
-        System.out.println("-----------------------------------------------------------------------");
-        Task3.findMinMaxMeanList();
+//        System.out.println("-----------------------------------------------------------------------");
+//        Task3.findMinMaxMeanList();
     }
 }
 
