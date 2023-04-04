@@ -1,48 +1,25 @@
 package seminar3.hw;
 
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Scanner;
+
 public class Task2 {
-    public static int[] sortArray(int[] array) {
-        if (array == null) {
-            return null;
+    public static void delEvenNumbersFromList() {
+        Random random = new Random();
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("List length = ");
+        int len = scanner.nextInt();
+        ArrayList<Integer> evenList = new ArrayList<>();
+        ArrayList<Integer> notEvenList = new ArrayList<>();
+        for (int i = 0; i < len; i++) {
+            evenList.add(random.nextInt(2,50));
         }
-        if (array.length < 2) {
-            return array;
+        System.out.println(evenList);
+
+        for (int i = 0; i < evenList.size(); i++) {
+            if (evenList.get(i) % 2 != 0) notEvenList.add(evenList.get(i));
         }
-
-        int[] arrayB = new int[array.length / 2];
-        System.arraycopy(array, 0, arrayB, 0, array.length / 2);
-
-        int[] arrayC = new int[array.length - arrayB.length];
-        System.arraycopy(array, arrayB.length, arrayC, 0, array.length - arrayB.length);
-
-        sortArray(arrayB);
-        sortArray(arrayC);
-
-        mergeArray(array, arrayB, arrayC);
-
-        return array;
-    }
-
-    private static void mergeArray(int[] array, int[] arrayB, int[] arrayC) {
-
-        int positionB = 0;
-        int positionC = 0;
-
-        for (int c = 0; c < array.length; c++) {
-            if (positionB == arrayB.length) {
-                array[c] = arrayC[positionC];
-                positionC++;
-            } else if (positionC == arrayC.length) {
-                array[c] = arrayB[positionB];
-                positionB++;
-            } else if (arrayB[positionB] < arrayC[positionC]) {
-                array[c] = arrayB[positionB];
-                positionB++;
-            } else {
-                array[c] = arrayC[positionC];
-                positionC++;
-            }
-        }
+        System.out.println(notEvenList);
     }
 }
-
