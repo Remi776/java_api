@@ -1,6 +1,7 @@
 package seminar4.hw;
 
 import java.util.ArrayDeque;
+import java.util.Collections;
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -17,6 +18,7 @@ public class ReverseLinkedList {
         for (int item : linkedList) {
             reverseList.addFirst(item);
         }
+        //Collections.reverse(linkedList);
         System.out.println(reverseList);
     }
 }
