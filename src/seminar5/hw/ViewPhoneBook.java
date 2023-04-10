@@ -1,7 +1,7 @@
 package seminar5.hw;
 
-public class View {
+public class ViewPhoneBook {
     public static void main(String[] args) {
-        PhoneBook.menu();
+        PhoneBook.run();
     }
 }
