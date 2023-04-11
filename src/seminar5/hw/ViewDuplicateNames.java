@@ -5,6 +5,6 @@ public class ViewDuplicateNames {
         DuplicateNames.readTextFile();
         DuplicateNames.printTextFile();
         DuplicateNames.countIdenticalNames();
-
+//        DuplicateNames.sort();
     }
 }

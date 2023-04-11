@@ -45,12 +45,12 @@ public class DuplicateNames {
         map.put(key, map.get(key) + 1);
     }
 
-    public static void Sort() {
-        for (entry:map.entrySet) {
-            if (entry.getValues() > 1) {
-                добавить в TreeMap entry.getKey, entry.getValue()
-            }
-        }
-    }
+//    public static void Sort() {
+//        for (entry:map.entrySet) {
+//            if (entry.getValues() > 1) {
+//                добавить в TreeMap entry.getKey, entry.getValue()
+//            }
+//        }
+//    }
 
 }
