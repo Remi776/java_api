@@ -7,7 +7,7 @@ import java.util.*;
 
 public class DuplicateNames {
     private static List<String> employeesList = new ArrayList<>();
-    private static final HashMap<String, Integer> employeeNamesMap = new HashMap<>();
+    private static final Map<String, Integer> employeeNamesMap = new HashMap<>();
 
     public static void printTextFile() {
         System.out.println(employeesList);
@@ -41,16 +41,23 @@ public class DuplicateNames {
         System.out.println(employeeNamesMap);
     }
 
-    public static void updateValue(HashMap<String, Integer> map, String key) {
+    public static void updateValue(Map<String, Integer> map, String key) {
         map.put(key, map.get(key) + 1);
     }
 
-//    public static void Sort() {
-//        for (entry:map.entrySet) {
-//            if (entry.getValues() > 1) {
-//                добавить в TreeMap entry.getKey, entry.getValue()
-//            }
-//        }
-//    }
+
+    public static void sort() {
+        Map<String, Integer> result = new LinkedHashMap<>();
+
+        List<Map.Entry<String, Integer>> entries = new LinkedList<>(employeeNamesMap.entrySet());
+        entries.sort(comparator); // Comparator.comparing(o -> (o.getValue())) OR Map.Entry.comparingByValue()
+
+        for (Map.Entry<String, Integer> entry: entries) {
+            result.put(entry.getKey(), entry.getValue());
+        }
+        System.out.println(result);
+    }
+
+    static Comparator<Map.Entry<String, Integer>> comparator = (o1, o2) -> o1.getValue().compareTo(o2.getValue());
 
 }
