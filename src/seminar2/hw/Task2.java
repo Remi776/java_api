@@ -17,11 +17,11 @@ public class Task2 {
 
     public static void getStudentsJournal() {
         try {
-            Object obj = new JSONParser().parse(new FileReader("/Users/bukharskyroman/Documents/GB_first_term/Java/java_api/src/seminar2/hm/students.json"));
+            Object obj = new JSONParser().parse(new FileReader("/Users/bukharskyroman/Documents/GB_first_term/Java/java_api/src/seminar2/hm/students.json"));  // при указании просто students.json выдает ошибку, почему?
             JSONArray students = (JSONArray) obj;
             for (Object it : students) {
                 JSONObject array = (JSONObject) it;
-                System.out.println("Студент " + array.get(TAG_SURNAME) + " получил " + array.get(TAG_MARK) + " по предмету " + array.get(TAG_SUBJECT) +".");
+                System.out.println("Студент " + array.get(TAG_SURNAME) + " получил " + array.get(TAG_MARK) + " по предмету " + array.get(TAG_SUBJECT) + ".");
             }
         } catch (IOException | ParseException e) {
             throw new RuntimeException(e);
