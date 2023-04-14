@@ -1,48 +1,67 @@
 package seminar5.hw;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 public class HeapSort {
     public static void run() {
 
-        ArrayList<Integer> randomList = new ArrayList<>();
+        int[] randomArray = new int[16];
         Random random = new Random();
 
-        for (int index = 1; index <= 7; index++) {
-            randomList.add(random.nextInt(1, 50));
+        for (int index = 0; index < randomArray.length; index++) {
+            randomArray[index] = random.nextInt(1, 20);
         }
-        System.out.println(randomList);
+        System.out.print("Array: ");
+        System.out.println(Arrays.toString(randomArray));
 
-        int listSize = randomList.size();
-        for (int i = randomList.size() / 2; i >= 0; i--) {
-            getFixHeap(randomList, i, randomList.get(i), listSize);
-        }
-        System.out.println(randomList);
+        BuildHeap(randomArray);
+        System.out.print("\nFixed heap: ");
+        System.out.println(Arrays.toString(randomArray));
+
+        HeapSort(randomArray);
+        System.out.print("\nSorted array: ");
+        System.out.println(Arrays.toString(randomArray));
     }
 
-    private static void getFixHeap(ArrayList<Integer> arrayList, int root, int key, int bound) {
-        int vacant = root;
-        while (2 * vacant <= bound) {
-
-            int firstChild = 2 * vacant;
-            int secondChild = firstChild + 1;
-            int temp;
-
-            if (firstChild < bound && (arrayList.get(firstChild) > arrayList.get(secondChild))){
-                temp = firstChild + 1;
-            }
-            if (secondChild < bound && (arrayList.get(firstChild) < arrayList.get(firstChild))){
-                temp = firstChild + 1;
-            }
-
-            if (key > arrayList.get(temp)){
-                break;
-            } else {
-                arrayList.add(vacant, arrayList.get(temp));
-                vacant = temp;
-            }
+    public static void HeapSort(int[] array) {
+        BuildHeap(array);
+        for (int i = array.length - 1; i >= 0; i--) {
+            int temp = array[i];
+            array[i] = array[0];
+            array[0] = temp;
+            getFixHeap(array, 0, i);
         }
-        arrayList.add(vacant, key);
+    }
+
+    public static void BuildHeap(int[] array) {
+        int arrayLength = array.length;
+        for (int i = (array.length / 2) - 1; i >= 0; i--) {
+            getFixHeap(array, i, arrayLength);
+        }
+    }
+
+    public static void getFixHeap(int[] array, int root, int bound) {
+
+        int firstChild = 2 * root + 1;
+        int secondChild = firstChild + 1;
+        int largest = root;
+
+        if (firstChild < bound && (array[firstChild] > array[largest])) {
+            largest = firstChild;
+        }
+
+        if (secondChild < bound && (array[secondChild] > array[largest])) {
+            largest = secondChild;
+        }
+
+        if (root != largest) {
+            int temp = array[root];
+            array[root] = array[largest];
+            array[largest] = temp;
+            getFixHeap(array, largest, bound);
+        }
     }
 }
+
